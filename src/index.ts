@@ -14,6 +14,10 @@ app.get("/", (req: Request, res: Response) => {
   return res.send("It's working 🙌");
 });
 
+app.get("/quote", (req: Request, res: Response) => {
+  return res.send("Quotes alos running");
+});
+
 
 
 
